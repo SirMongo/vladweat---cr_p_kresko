@@ -186,6 +186,8 @@ python run_solo.py -m swap_from_kiss -pk [приватник] -tn [назван�
 # Свап 10 KISS в krETH
 python run_solo.py -m swap_from_kiss -pk [приватник] -tn krETH -tv 10 -r 2661
 ```
+
+Где взять [отношение к KISS]
 ![kiss rate](https://github.com/vladweat/cr_p_kresko/blob/master/kiss_rate.PNG)
 
 Свап ПТ -> KISS
