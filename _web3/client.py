@@ -360,9 +360,9 @@ class Client:
     ) -> bool | str:
 
         collateral_indexs = {
-            "krWTI": 0,
+            "krWTI": 2,
             "krBTC": 1,
-            "KISS": 2,
+            "KISS": 0,
             "krETH": 3,
             "krTSLA": 4,
             "krXAU": 5,
