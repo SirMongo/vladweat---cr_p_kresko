@@ -145,7 +145,7 @@ class Client:
         for token in self.tokens:
             symbol = token["token"]
             address = token["address"]
-            res, tx_hash = self.approve_token_for_swap(private_key, address)
+            res, tx_hash = self.approve_token_for_deposit(private_key, address)
             if res == True:
                 success_transaction[symbol] = str(tx_hash)
             elif res == False:
